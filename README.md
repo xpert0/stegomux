@@ -1,2 +1,2 @@
 # stegomux
-Will be available publicly soon
+Full version will be available publicly soon
