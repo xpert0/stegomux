@@ -1,0 +1,29 @@
+#!/bin/bash
+
+clear
+
+cd ~/stegomux/.stego
+
+echo Location of the decoder HTML
+
+read var1
+
+echo Location of the encoded jpg image
+
+read var2
+
+echo Directory to write the file
+
+read var3
+
+echo Filename
+
+read var4
+
+clear
+
+python scripts/pwj.py ${var1} ${var2} ${var3}/${var4}.HTML
+
+cd ~
+
+clear

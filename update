@@ -1,0 +1,27 @@
+#!/bin/bash
+
+clear
+
+cd ~
+
+clear
+
+rm -rff ~/stegomux
+
+apt update -y
+
+apt upgrade -y
+
+clear
+
+git clone https://github.com/xpert0/stegomux
+
+clear
+
+bash ~/stegomux/setup
+
+cd ~
+
+echo -e "\e[1;32m Updated \e[0m"
+
+cd ~

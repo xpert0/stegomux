@@ -1,0 +1,15 @@
+#!/bin/bash
+
+cd ~/stegomux/.stego
+
+clear
+
+echo Location of the B&W jpg image
+
+read var1
+
+cp -r ${var1} ~/stegomux/.stego/image
+
+echo -e "\e[1;32m Go to http://8.8.8.8:8000/encode/echo.html with chrome browser to encode js into jpg image \e[0m"
+
+python -m http.server -b 8.8.8.8 8000

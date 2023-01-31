@@ -1,0 +1,21 @@
+#!/bin/bash
+
+clear
+
+cd ~
+
+nano ~/stegomux/.stego/exploits/DCIM
+
+clear
+
+echo type output directory and hit enter
+
+read my_dir
+
+echo type the filename again and hit enter
+
+read file
+
+cp -r ~/${file} ${my_dir}
+
+clear

@@ -1,0 +1,17 @@
+#!/bin/bash
+
+clear
+
+echo "Location of the output HTML file created with 'fuse' "
+
+read dir
+
+clear
+
+cp -r ${dir} ~/stegomux/.stego/attacks
+
+cd ~/stegomux/.stego/attacks
+
+clear
+
+python -m http.server -b 127.0.0.2 5902

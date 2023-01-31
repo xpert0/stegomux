@@ -1,0 +1,19 @@
+#!/bin/bash
+
+clear
+
+cd ~
+
+echo -e "\e[1;31m Setup process ongoing\nDo not terminate \e[0m"
+
+apt update -y
+
+apt upgrade -y
+
+pkg install python -y
+
+read -p "If there is no error message hit enter...
+Otherwise let me know the issue by mail
+[archismankar.jgm@gmail.com] with screenshots(if possible)."
+
+clear
