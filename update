@@ -14,7 +14,7 @@ apt upgrade -y
 
 clear
 
-git clone https://github.com/xpert0/stegomux
+git clone https://github.com/xpert01/stegomux
 
 clear
 
